@@ -45,7 +45,7 @@ export const resume: Resume = {
   tagline: 'Building responsive and dynamic web applications with modern technologies.',
   summary:
     'Frontend Developer with 3+ years of hands-on experience in building responsive and dynamic web applications using React.js, Redux Toolkit, TypeScript, Next.js, and modern frontend technologies. Proficient in translating UI/UX designs into high-quality code and integrating RESTful APIs and GraphQL. Strong foundation in HTML5, CSS3, SASS, JavaScript (ES6+), and testing frameworks like Jest with RTL. Experienced in Node.js, MongoDB, Micro-Frontend architecture, and CI/CD pipelines. Skilled in Git version control and agile development environments.',
-  photo: 'WhatsApp Image 2026-03-13 at 14.48.24.jpeg',  // Or leave as undefined to use the imported one,
+  photo: 'src\\assets\\WhatsApp Image 2026-03-13 at 14.48.24.jpeg',  // Or leave as undefined to use the imported one,
   contact: {
     email: 'badavathpavannayak30@gmail.com',
     location: 'Chennai, Tamil Nadu, India',
