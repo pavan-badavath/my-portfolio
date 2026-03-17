@@ -24,7 +24,7 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
+    transition: { duration: 0.6 },
   },
 }
 
@@ -44,7 +44,7 @@ const SectionWrapper = ({ id, className = '', children, staggerChildren = false 
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.25 }}
-      transition={{ duration: 0.7, ease: 'easeOut' }}
+      transition={{ duration: 0.7 }}
     >
       <div className="mx-auto max-w-6xl px-6 py-20">{content}</div>
     </motion.section>

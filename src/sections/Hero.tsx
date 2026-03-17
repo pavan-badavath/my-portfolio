@@ -18,7 +18,7 @@ const Hero = ({ resume }: HeroProps) => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+          transition={{ duration: 0.8 }}
           className="lg:col-span-7"
         >
           <p className="text-sm font-medium uppercase tracking-widest text-slate-500 dark:text-slate-400">
@@ -49,7 +49,7 @@ const Hero = ({ resume }: HeroProps) => {
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.75, ease: 'easeOut' }}
+          transition={{ duration: 0.75 }}
           className="relative lg:col-span-5"
         >
           <div className="relative mx-auto w-52 overflow-hidden rounded-3xl border border-slate-200/60 bg-white shadow-lg shadow-slate-900/10 dark:border-slate-800/60 dark:bg-slate-950/40 lg:ml-auto">
