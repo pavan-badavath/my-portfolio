@@ -56,6 +56,7 @@ const Hero = ({ resume }: HeroProps) => {
             <img
               src={photoSrc}
               alt={`${resume.name} portrait`}
+              loading="lazy"
               className="h-full w-full object-cover"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 transition group-hover:opacity-100" />
