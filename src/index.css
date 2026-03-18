@@ -10,10 +10,11 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 body {
-  @apply min-h-screen bg-white text-slate-900 antialiased;
+  @apply min-h-screen bg-white text-slate-900 antialiased overflow-x-hidden;
   font-family: var(--font-sans);
 }
 

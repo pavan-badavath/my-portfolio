@@ -40,7 +40,7 @@ const SectionWrapper = ({ id, className = '', children, staggerChildren = false 
   return (
     <motion.section
       id={id}
-      className={`w-full ${className}`}
+      className={`w-full scroll-mt-20 ${className}`}
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.25 }}
