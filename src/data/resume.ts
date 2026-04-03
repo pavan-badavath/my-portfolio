@@ -1,4 +1,4 @@
-import profileImg from '../assets/WhatsApp Image 2026-03-13 at 14.48.24.jpeg';
+import profileImg from '../assets/Confident developer in modern office.png';
 export type Resume = {
   name: string
   title: string
@@ -45,7 +45,7 @@ export const resume: Resume = {
   title: 'Frontend Developer',
   tagline: 'Building responsive and dynamic web applications with modern technologies.',
   summary:
-    'Frontend Developer with 3+ years of hands-on experience in building responsive and dynamic web applications using React.js, Redux Toolkit, TypeScript, Next.js, and modern frontend technologies. Proficient in translating UI/UX designs into high-quality code and integrating RESTful APIs and GraphQL. Strong foundation in HTML5, CSS3, SASS, JavaScript (ES6+), and testing frameworks like Jest with RTL. Experienced in Node.js, MongoDB, Micro-Frontend architecture, and CI/CD pipelines. Skilled in Git version control and agile development environments.',
+    'Frontend Developer with 3+ years of experience building scalable, high-performance web applications using React.js, Next.js, TypeScript, and Redux Toolkit. Proven ability to translate complex UI/UX designs into pixel-perfect, responsive interfaces and integrate RESTful APIs and GraphQL for seamless data-driven experiences. Experienced in leveraging AI-powered developer tools such as GitHub Copilot and Cursor AI, along with OpenAI API for LLM integration and prompt engineering to enhance development efficiency and build intelligent features. Skilled in performance optimization, micro-frontend architecture, and modern development practices, delivering robust and production-ready applications. Strong foundation in HTML5, CSS3, SASS, and JavaScript (ES6+), with hands-on experience in testing (Jest, React Testing Library), CI/CD pipelines, and Agile environments.',
   photo: profileImg,
   contact: {
     email: 'badavathpavannayak30@gmail.com',
@@ -128,9 +128,9 @@ export const resume: Resume = {
     },
   ],
   skills: {
-    frontend: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3', 'SASS/SCSS', 'React.js', 'Redux Toolkit', 'Next.js', 'React Hooks', 'Context API', 'Micro-Frontend (Module Federation)', 'Tailwind CSS', 'Material UI', 'Responsive Web Design', 'Cross-Browser Compatibility'],
-    backend: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'GraphQL', 'Apollo Client', 'Axios', 'Fetch API', 'JSON', 'WebSocket', 'Socket.io'],
-    tooling: ['Jest', 'React Testing Library (RTL)', 'Cypress', 'Unit Testing', 'Integration Testing', 'Git', 'GitHub', 'GitHub Actions', 'CI/CD', 'Docker (basics)', 'Webpack', 'Vite', 'npm/yarn', 'JWT', 'OAuth 2.0', 'RBAC', 'Agile/Scrum', 'Code Reviews'],
+    frontend: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3', 'SASS/SCSS', 'React.js', 'React Native', 'Redux Toolkit', 'Next.js', 'React Hooks', 'Context API', 'Micro-Frontend (Module Federation)', 'Tailwind CSS', 'Material UI', 'Responsive Web Design', 'Cross-Browser Compatibility'],
+    backend: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'GraphQL', 'Apollo Client', 'Axios', 'Fetch API', 'JSON', 'WebSocket', 'Socket.io', 'OpenAI API', 'AI Integration'],
+    tooling: ['Jest', 'React Testing Library (RTL)', 'Cypress', 'Unit Testing', 'Integration Testing', 'Git', 'GitHub', 'GitHub Actions', 'CI/CD', 'Docker (basics)', 'Webpack', 'Vite', 'npm/yarn', 'JWT (JSON Web Tokens)', 'OAuth 2.0', 'RBAC', 'Code Optimization', 'Best Practices', 'Agile/Scrum', 'Version Control', 'Code Reviews', 'Team Collaboration', 'GitHub Copilot', 'Cursor AI', 'Prompt Engineering'],
   },
   education: [
     {

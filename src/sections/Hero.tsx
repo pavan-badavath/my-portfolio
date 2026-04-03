@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import type { Resume } from '../data/resume'
 import profilePlaceholder from '../assets/profile.svg'
+import { TypewriterEffect } from '../components/TypewriterEffect'
 
 type HeroProps = {
   resume: Resume
@@ -24,9 +25,11 @@ const Hero = ({ resume }: HeroProps) => {
           <p className="text-sm font-medium uppercase tracking-widest text-slate-500 dark:text-slate-400">
             Hi, I’m {resume.name}
           </p>
-          <h1 className="mt-4 text-5xl font-semibold leading-tight tracking-tight text-slate-900 dark:text-white sm:text-6xl">
-            {resume.title}
-          </h1>
+          <TypewriterEffect
+            titles={["Frontend Developer", "React Developer"]}
+            displayElement="h1"
+            className="mt-4 text-5xl font-semibold leading-tight tracking-tight text-slate-900 dark:text-white sm:text-6xl"
+          />
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
             {resume.tagline}
           </p>

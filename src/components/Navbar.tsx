@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 
 type NavItem = { label: string; href: string }
 
@@ -13,19 +13,6 @@ const navItems: NavItem[] = [
 
 const Navbar = ({ name }: { name: string }) => {
   const [open, setOpen] = useState(false)
-  const [darkMode, setDarkMode] = useState(false)
-
-  useEffect(() => {
-    const stored = localStorage.getItem('theme')
-    const isDark = stored === 'dark' || (!stored && window.matchMedia?.('(prefers-color-scheme: dark)').matches)
-    setDarkMode(isDark)
-    document.documentElement.classList.toggle('dark', isDark)
-  }, [])
-
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', darkMode)
-    localStorage.setItem('theme', darkMode ? 'dark' : 'light')
-  }, [darkMode])
 
   const handleLinkClick = () => {
     setOpen(false)
@@ -54,14 +41,6 @@ const Navbar = ({ name }: { name: string }) => {
         </a>
         <nav className="hidden items-center gap-8 md:flex">{renderLinks}</nav>
         <div className="flex items-center gap-3">
-          <button
-            type="button"
-            aria-label="Toggle theme"
-            className="rounded-full border border-slate-200/80 bg-white/70 px-3 py-2 text-sm font-medium text-slate-700 shadow-sm backdrop-blur-sm transition hover:bg-white dark:border-slate-700/80 dark:bg-slate-900/40 dark:text-slate-200"
-            onClick={() => setDarkMode((value) => !value)}
-          >
-            {darkMode ? 'Light' : 'Dark'}
-          </button>
           <button
             type="button"
             className="inline-flex items-center justify-center rounded-md border border-slate-200/80 bg-white/70 p-2 text-slate-700 shadow-sm transition hover:bg-white dark:border-slate-700/80 dark:bg-slate-900/40 dark:text-slate-200 md:hidden"

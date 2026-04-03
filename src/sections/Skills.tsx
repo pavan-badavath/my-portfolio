@@ -20,7 +20,7 @@ const Skills = ({ resume }: SkillsProps) => {
 
         <div className="mt-10 grid gap-8 sm:grid-cols-3">
           <motion.div variants={itemVariants} initial="hidden" animate="visible">
-            <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-200">Frontend</h3>
+            <h3 className="text-lg font-semibold text-slate-700 dark:text-slate-200">Frontend</h3>
             <div className="mt-4 flex flex-wrap gap-2">
               {resume.skills.frontend.map((skill) => (
                 <SkillPill key={skill} label={skill} />
@@ -28,7 +28,7 @@ const Skills = ({ resume }: SkillsProps) => {
             </div>
           </motion.div>
           <motion.div variants={itemVariants} initial="hidden" animate="visible">
-            <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-200">Backend</h3>
+            <h3 className="text-lg font-semibold text-slate-700 dark:text-slate-200">Backend</h3>
             <div className="mt-4 flex flex-wrap gap-2">
               {resume.skills.backend.map((skill) => (
                 <SkillPill key={skill} label={skill} />
@@ -36,7 +36,7 @@ const Skills = ({ resume }: SkillsProps) => {
             </div>
           </motion.div>
           <motion.div variants={itemVariants} initial="hidden" animate="visible">
-            <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-200">Tooling</h3>
+            <h3 className="text-lg font-semibold text-slate-700 dark:text-slate-200">Tooling</h3>
             <div className="mt-4 flex flex-wrap gap-2">
               {resume.skills.tooling.map((skill) => (
                 <SkillPill key={skill} label={skill} />
