@@ -48,8 +48,8 @@ export const resume: Resume = {
     'Frontend Developer with 3+ years of experience building scalable, high-performance web applications using React.js, Next.js, TypeScript, and Redux Toolkit. Proven ability to translate complex UI/UX designs into pixel-perfect, responsive interfaces and integrate RESTful APIs and GraphQL for seamless data-driven experiences. Experienced in leveraging AI-powered developer tools such as GitHub Copilot and Cursor AI, along with OpenAI API for LLM integration and prompt engineering to enhance development efficiency and build intelligent features. Skilled in performance optimization, micro-frontend architecture, and modern development practices, delivering robust and production-ready applications. Strong foundation in HTML5, CSS3, SASS, and JavaScript (ES6+), with hands-on experience in testing (Jest, React Testing Library), CI/CD pipelines, and Agile environments.',
   photo: profileImg,
   contact: {
-    email: 'badavathpavannayak30@gmail.com',
-    location: 'Chennai, Tamil Nadu, India',
+    email: 'pavanbadavath01@gmail.com',
+    location: 'Bengaluru, Karnataka, India',
     github: 'https://github.com/pavan-badavath',
     linkedIn: 'https://linkedin.com/in/pavan-nayak-badavath-961a38372',
   },
@@ -58,7 +58,7 @@ export const resume: Resume = {
       company: 'LightCast',
       role: 'Software Engineer',
       start: 'October 2025',
-      end: 'Present',
+      end: 'April 2026',
       location: 'Chennai, India',
       bullets: [
         'Architected and delivered a full-stack SaaS dashboard for an EdTech startup using Next.js 16 (App Router), TypeScript, and Tailwind CSS, integrated with Node.js/Express backend and MongoDB, serving 2,000+ active users within the first month of launch.',
