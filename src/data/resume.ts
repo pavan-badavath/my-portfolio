@@ -45,10 +45,10 @@ export const resume: Resume = {
   title: 'Frontend Developer',
   tagline: 'Building responsive and dynamic web applications with modern technologies.',
   summary:
-    'Frontend Developer with 3+ years of experience building scalable, high-performance web applications using React.js, Next.js, TypeScript, and Redux Toolkit. Proven ability to translate complex UI/UX designs into pixel-perfect, responsive interfaces and integrate RESTful APIs and GraphQL for seamless data-driven experiences. Experienced in leveraging AI-powered developer tools such as GitHub Copilot and Cursor AI, along with OpenAI API for LLM integration and prompt engineering to enhance development efficiency and build intelligent features. Skilled in performance optimization, micro-frontend architecture, and modern development practices, delivering robust and production-ready applications. Strong foundation in HTML5, CSS3, SASS, and JavaScript (ES6+), with hands-on experience in testing (Jest, React Testing Library), CI/CD pipelines, and Agile environments.',
+    'Frontend Developer with 4+ years of experience building scalable, high-performance web applications using React.js, Next.js, TypeScript, and Redux Toolkit. Proven ability to translate complex UI/UX designs into pixel-perfect, responsive interfaces and integrate RESTful APIs and GraphQL for seamless data-driven experiences. Experienced in leveraging AI-powered developer tools such as GitHub Copilot and Cursor AI, along with OpenAI API for LLM integration and prompt engineering to enhance development efficiency and build intelligent features. Skilled in performance optimization, micro-frontend architecture, and modern development practices, delivering robust and production-ready applications. Strong foundation in HTML5, CSS3, SASS, and JavaScript (ES6+), with hands-on experience in testing (Jest, React Testing Library), CI/CD pipelines, and Agile environments.',
   photo: profileImg,
   contact: {
-    email: 'pavanbadavath01@gmail.com',
+    email: 'nayakbp7676@gmail.com@gmail.com',
     location: 'Bengaluru, Karnataka, India',
     github: 'https://github.com/pavan-badavath',
     linkedIn: 'https://linkedin.com/in/pavan-nayak-badavath-961a38372',
@@ -72,7 +72,7 @@ export const resume: Resume = {
     {
       company: 'KPMG (via Adrola Software Technologies)',
       role: 'Software Engineer',
-      start: 'June 2023',
+      start: 'May 2022',
       end: 'September 2025',
       location: 'Bengaluru, India',
       bullets: [
@@ -85,21 +85,7 @@ export const resume: Resume = {
         'Mentored junior developers and conducted code reviews while maintaining coding standards and best practices across development teams.',
       ],
     },
-    {
-      company: 'Frontend Development Internship',
-      role: 'React Developer Intern',
-      start: 'December 2022',
-      end: 'May 2023',
-      location: 'Bengaluru, India & Remote',
-      bullets: [
-        'Developed responsive web applications using React.js with modern JavaScript (ES6+) features and TypeScript.',
-        'Built reusable UI components using HTML5, CSS3, SASS preprocessors following React best practices.',
-        'Implemented state management solutions using Redux Toolkit and Context API for data flow management.',
-        'Integrated RESTful APIs using Axios and Fetch API to connect frontend with backend services.',
-        'Created unit tests using Jest and React Testing Library to ensure code reliability.',
-        'Collaborated with teams using Agile methodologies and utilized Git for version control workflows.',
-      ],
-    },
+    
   ],
   projects: [
     {
