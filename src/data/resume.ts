@@ -48,7 +48,7 @@ export const resume: Resume = {
     'Frontend Developer with 4+ years of experience building scalable, high-performance web applications using React.js, Next.js, TypeScript, and Redux Toolkit. Proven ability to translate complex UI/UX designs into pixel-perfect, responsive interfaces and integrate RESTful APIs and GraphQL for seamless data-driven experiences. Experienced in leveraging AI-powered developer tools such as GitHub Copilot and Cursor AI, along with OpenAI API for LLM integration and prompt engineering to enhance development efficiency and build intelligent features. Skilled in performance optimization, micro-frontend architecture, and modern development practices, delivering robust and production-ready applications. Strong foundation in HTML5, CSS3, SASS, and JavaScript (ES6+), with hands-on experience in testing (Jest, React Testing Library), CI/CD pipelines, and Agile environments.',
   photo: profileImg,
   contact: {
-    email: 'nayakbp7676@gmail.com@gmail.com',
+    email: 'nayakbp7676@gmail.com',
     location: 'Bengaluru, Karnataka, India',
     github: 'https://github.com/pavan-badavath',
     linkedIn: 'https://linkedin.com/in/pavan-nayak-badavath-961a38372',
